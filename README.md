@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 3. Install Atari ROMs:
 ```bash
-python -m atari_py.import_roms
+pip install 'gymnasium[atari]'
 ```
 
 ## Project Structure
