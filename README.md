@@ -84,20 +84,6 @@ space_invaders_dqn/
 - **Try 2**: Eliminated negative rewards, stable learning
 - **Try 3**: More complex behavior, lower but steady rewards
 
-## Usage
-
-### Training
-```bash
-python main.py --try_number 1  # For first implementation
-python main.py --try_number 2  # For second implementation
-python main.py --try_number 3  # For third implementation
-```
-
-### Evaluation
-```bash
-python evaluate_model.py --model_path models/try1/final_model.keras
-```
-
 ## Model Performance
 Average rewards over 5 evaluation episodes:
 - Model 1: 483.0
